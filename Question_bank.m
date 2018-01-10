@@ -1,0 +1,271 @@
+%Introductory Questions to determine money value for second round
+%First round = myquestion
+
+myquestion ={'How many languages and dialects are spoken by people all over the world?';
+'Approximately, how many people speak Chinese language';
+'Who is the author of the book: TheTime machine?';
+'Who developed the small pox vaccination?';
+'Who is American General who led the revolt against the British & declared American independence';
+'What did Marco Polo discover?';
+'Who was first to reach the South Pole?';
+'What is the national sport of Canada';
+'Which country is the densest in population?';
+'Which country is the biggest in land area?';
+'Where is the biggest desert on earth?';
+'The highest mountain of the world is in which two countries?';
+'Which is the northernmost capital city in the world?';
+'Which capital city in the world is at the highest altitude?';
+'A string quartet normally includes how many violins?';
+'In Roman mythology, who was the father of Romulus and Remus?';
+'The dessert dish tiramisu originated in which country?';
+'Who played the character Vin in the 1960 western The Magnificent Seven?';
+'The Peterloo Massacre took place in 1819 in which English city?';
+'How many red boxes feature in the TV game show Deal or No Deal?';
+'Mrs Gamp is a character in which Charles Dickens novel?';
+'The city of Durham stands on which river?';
+'Which English king was nicknamed "Rufus"?';
+'Which North African country lies between Tunisia and Egypt?';
+'What nationality was the painter Paul Klee, who died in 1940?';
+'Who wrote the song White Christmas?';
+'Where did George Mallory and Andrew Irvine disappear in 1924?';
+'The word "impi" means a body of warriors in which African language?';
+'What is the Japanese word for "goodbye"?';
+'Who is the Premier Leagues all time top scorer?'};
+      
+             
+ myCA ={'9000';
+ '1 billion';
+ 'H.G. Wells';
+ 'Edward Jenner';
+ 'George Washington';
+ 'Parts of China and India';
+ 'Captain Amundsen';
+ 'Lacrosse';
+ 'Monaco';
+ 'Russia';
+ 'Antarctica';
+ 'Tibet and Nepal';
+ 'Reykjavik, Iceland';
+ 'La Paz, Bolivia';
+ 'Two';
+ 'Mars';
+ 'Italy';
+ 'Steve McQueen';
+ 'Manchester';
+ '22';
+ 'Martin Chuzzlewit';
+ 'Wear';
+ 'William II';
+ 'Libya';
+ 'Swiss';
+ 'Irving Berlin';
+ 'Mount Everest';
+ 'Zulu';
+ 'Sayonara';
+ 'Alan Shearer'};
+  
+myWA1 ={'6000';
+'1 million';
+'Lewis Carroll';
+'Alexander Fleming';
+'Bill Clinton';
+'Greenland';
+'Captain R.E. Scett';
+'Tennis';
+'China';
+'China';
+'Siberia';
+'China and Tibet';
+'Oslo, Norway';
+'Bern, Switzerland';
+'One';
+'Mercury';
+'Japan';
+'Charles Bronson';
+'Birmingham';
+'20';
+'Bleak House';
+'Tyne';
+'Edward II';
+'Algeria';
+'Dutch';
+'Ivor Novello';
+'Antarctica';
+'Afrikaans';
+'Origami';
+'Wayne Rooney'};
+ 
+myWA2 ={'4000';
+'1 thousand';
+'Robert Louis Stevenson';
+'Albert Einstein';
+'George Bush';
+'Canada';
+'Sir Edmund Hillary';
+'Hockey';
+'Bahrain';
+'Canada';
+'California';
+'Pakistan and Nepal';
+'Moscow, Russia';
+'Katamandu, Nepal';
+'Three';
+'Jupiter';
+'Portugal';
+'James Coburn';
+'London';
+'24';
+'David Copperfield';
+'Tees';
+'Henry II';
+'Morocco';
+'Swedish';
+'Cole Porter';
+'The Antlantic Ocean';
+'Swahili';
+'Sukiyaki';
+'Thierry Henry'}; 
+
+%Questions against the chaser
+%Second round
+
+question={'What do the Danish call Danish pastries?';
+    'The German word kummerspeck, meaning weight gained through comfort eating, literally means what?';
+    'What is a swede?';
+    'Which of these was once the national drink of Scotland?';
+    'What was a predecessor of the Milky Way bar?';
+    'According to the International Cloud Atlas, which of these is the highest?';
+    'Which is the deepest loch in Scotland?';
+    'What was the first of Earths supercontinents?':
+    'In which country was the Can-Can invented?';
+    'The word "absinthe" comes from the Greek apsinthion, meaning what?';
+    'Making its debut in September of 2017, "Young Sheldon" is a spin-off prequel to what popular TV sitcom?';
+    'Which of the following songs was not a 2017 Billboard hit for Taylor Swift?';
+    'Who won the Mens Golf Masters Tournament in April of 2017?'; 
+    'Hall, Rosbah and Young shared the 2017 Nobel Prize in which field?';
+    'King Salman removed a ban on women driving automobiles in which nation in 2017?';
+    'English reality television judge "Simon Cowell" celebrated what birthday in October of 2017?';
+    'What former Oasis front man released his debut solo album "As You Were" in 2017?';
+    'What Internet search engine company was hit with $2.7 billion fine for engaging in antitrust behavior?';
+    'Who won the "Artist of the Year Award" at the 2017 American Music Awards?';
+    'Which of the following TV shows did not make its debut in 2017?';
+    'The spacecraft Cassini?Huygens ended its 19-year mission by plunging into what planet on September 15, 2017?'; 
+    'This nations flag features a gold lion holding a kastane sword with its right forepaw. Can you name which country it belongs to?';
+    'The disorder of "rickets" is most often caused by a deficiency of which vitamin?';
+    'The Bridal Chorus, generally known today as "Here Comes the Bride", is from the 1850 opera "Lohengrin". Who composed the march?';
+    'At which Battle did the German army first use lethal chlorine gas during the First World War?';
+    'Which of the following James Bond films was the first to be released?';
+    '"Tiny Tim" is a character from Charles Dickens novella "A Christmas Carol", and also a variety of fruit. Which fruit?';
+    'Which evil film character utters the line "I will get you, my pretty, and your pretty little dog too"?';
+    'Benedict and Beatrice are featured as lovers in which William Shakespeare comedy?';
+    'What gland in the human body is responsible for regulating metabolism?';
+    'In the Disney 1955 animated classic "Lady and the Tramp", what is the name of Ladys owner?';
+    'What artist holds the record for the most singles listed on the Billboard Hot 100 chart, which did not reach number one?';
+    'Which of the following celebrities was the first to be born?';
+    'Useful for calculating internet speed and bandwidth, how many megabits are there in a megabyte?';
+    
+CA={'Viennese bread';
+    'Grief bacon';
+    'A cross between a cabbage and a turnip';
+    'Claret';
+    'Fat Emma';
+    'Cloud zero';
+    'Loch Morar';
+    'Rodinia';
+    'France';
+    'Undrinkable'
+    'The Big Bang Theory';
+    'Every Little Thing';
+    'Sergio Garcia';
+    'Medicine'
+    'Saudi Arabia';
+    '58';
+    'Liam Gallagher';
+    'Google';
+    'Bruno Mars';
+    'Stranger Things';
+    'Saturn'
+    'Much Ado About Nothing';
+    'Thyroid';
+    'Darling';
+    'James Brown';
+    'Mother Teresa';
+    'Eight'};
+ 
+
+WA2.1={'Danish pastries';
+       'Cream guzzling';
+       'A cross between a parsnip and a beetroot';
+       'Amaretto';
+       'Lardy Larry';
+       'Cloud nine';
+       'Loch Lomand';
+       'Pangaea';
+       'UK';
+       'Green Monster';
+       'Two and a Half Men';
+       'Gorgeous';
+       'Justin Thomas';
+       'Literature';
+       'France';
+       '68';
+       'Paul Arthurs';
+       'Yahoo';
+       'Mark Ronson';
+       'The Handmaids Tale';
+       'Jupiter';
+       'Mercury';
+       'Bangladesh';
+       'Vitamin B';
+       'Ludwig van Beethoven';
+       'The Somme Offensive';
+       'Goldfinger';
+       'Pear';
+       'Percival C. McLeach';
+       'The Taming of the Shrew';
+       'Pituitary';
+       'Diana';
+       'Michael Jackson';
+       'Nelson Mandela';
+       'Sixteen';
+       
+WA2.2={'Alsatian cakes'
+       'Disappointment candy';
+       'A cross between fennel and carrots';
+       'Vodka';
+       'Penny Plump';
+       'Fog';
+       'Loch Ness';
+       'Gondwanaland';
+       'Canada';
+       'Vomiting';
+       'The Middle';
+       'Look What You Made Me Do';
+       'Jordan Spieth';
+       'Peace';
+       'Monaco';
+       '48';
+       'Noel Gallagher';
+       'AltaVista';
+       'Ed Sheeran';
+       'Riverdale';
+       'Mars';
+       'Bhutan';
+       'Vitamin C';
+       'Johannes Brahms';
+       'Battle of Passchendaele'; 
+       'You Only Live Twice';
+       'Plum';
+       'Cruella Deville Percival';
+       'Loves Labours Lost'; 
+       'Mammary';
+       'Danielle';
+       'Stevie Wonder';
+       'Marilyn Monroe'; 
+       'Twelve'; 
+
+
+
+       
+       
+       
